@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #589ed9;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  margin: 0 auto;
+
+  padding-top: 150px;
+}
+.logo {
+  font-size: 60px;
+  color: white;
+}
+.container h1 {
+  color: white;
+  font-weight: 500;
+}
+.header {
+  text-align: center;
+}
+.form {
+  text-align: center;
+  margin-top: 10px;
+}
+.form-field input {
+  display: block;
+  margin: 0 auto;
+  text-indent: 20px;
+  border: none;
+}
+.form-field input[type="email"] {
+  height: 28px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.form-field input[type="password"] {
+  border-top: 1px solid #ccc;
+  height: 28px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.form-field input[type="email"],
+input[type="password"]:focus {
+  outline: none;
+}
+#login-btn {
+  background-color: #0564b3;
+  width: 172px;
+  height: 28px;
+  border: none;
+  color: white;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+.footer {
+  text-align: center;
+  color: white;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  margin: 0 5px;
+}
